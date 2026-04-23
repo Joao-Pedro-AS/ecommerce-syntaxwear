@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 0.265rem 1.25rem;
     background-color: #fff;
 }
 
@@ -25,6 +25,7 @@
 .nav-center a,
 .nav-right a {
     font-size: 1.25rem;
+    color: #333;
 }
 
 .nav-center a:hover,
@@ -35,11 +36,10 @@
 .nav-right ul {
     display: flex;
     gap: 2.5rem;
-    scale: (1,1);
     align-items: center;
 }
 
-.nav-right img{
+.nav-right img {
     height: 20px;
 }
 
